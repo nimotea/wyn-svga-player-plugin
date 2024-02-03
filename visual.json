@@ -1,0 +1,16 @@
+{
+    "id": "7682f4b0-c29a-11ee-838d-094df944c764",
+    "name": "svga-plugin",
+    "displayName": "",
+    "displayNameKey": "",
+    "icon": "assets/icon.png",
+    "description": "",
+    "externalJs": [],
+    "externalCss": [],
+    "dependencies": [],
+    "assets": {
+        "images": {}
+    },
+    "configuration": {},
+    "cliVersion": "6.1.8"
+}

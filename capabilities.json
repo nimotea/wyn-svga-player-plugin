@@ -1,0 +1,40 @@
+{
+    "dataBinding": {
+        "dataRoles" : [
+            {
+                "name" : "values",
+                "displayNameKey" : "弹幕信息",
+                "kind" : "value"
+            },
+            {
+                "name" : "category",
+                "displayNameKey" : "唯一id",
+                "kind" : "grouping"
+            }
+        ],
+        "dataViewMappings": [
+            {
+                "plain": {
+                    "required": [
+                        {
+                            "values": {
+                                "min": 1,
+                                "max" : 1
+                            }
+                        },
+                        {
+                            "category": {
+                                "min": 1,
+                                "max" : 1
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "options": {
+    },
+    "actions": [],
+    "analysis": []
+}
