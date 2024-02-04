@@ -34,6 +34,40 @@
         ]
     },
     "options": {
+        "visual" : [
+            {
+                "displayName": "动画配置",
+                "properties" : [
+                        {
+                            "name" : "customeSVGA",
+                            "displayName" : "自定义点位",
+                            "type" : "Collection",
+                            "itemShape" : [
+                            {
+                                "name" : "fiedValue",
+                                "type" : "Text",
+                                "displayName" : "状态值"
+                            },
+                            {
+                                "name" : "svgaType",
+                                "type" : "Enum",
+                                "displayName" : "动画类型",
+                                "items" : [
+                                    {
+                                        "value" : "cloud",
+                                        "displayName" : "气泡云"
+                                    },
+                                    {
+                                        "value" : "boat",
+                                        "displayName" : "月亮船"
+                                    }
+                                ],
+                                "defaultValue" : "boat"
+                            }]
+                    }
+                ]
+            }
+        ]
     },
     "actions": [],
     "analysis": []

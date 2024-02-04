@@ -1,15 +1,17 @@
 {
     "id": "7682f4b0-c29a-11ee-838d-094df944c764",
-    "name": "svga-plugin",
+    "name": "消息动效",
     "displayName": "",
     "displayNameKey": "",
-    "icon": "assets/icon.png",
+    "icon": "visualIcon",
     "description": "",
     "externalJs": [],
     "externalCss": [],
     "dependencies": [],
     "assets": {
-        "images": {}
+        "images": {
+            "visualIcon" : "../assets/icon_nde.png"
+        }
     },
     "configuration": {},
     "cliVersion": "6.1.8"

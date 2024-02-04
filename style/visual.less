@@ -1,0 +1,42 @@
+#animation{
+    width: 20%;
+    height: 30%;
+    position: fixed;
+    margin-left: -500px;
+    margin-top: -500px;
+    top: 50%;
+    left: 50%;
+}
+
+#giver{
+    position: fixed;
+    width: auto;
+    height: auto;
+    padding: 10px 20px 20px 100px;
+    border-radius: 30px;
+    text-align: left;
+    color: #ffffff  ;
+    background-image: linear-gradient(141deg, rgba(114,9,183,0.95) 0%, rgba(86, 11, 173, 0.75) 51%, rgba(72, 12, 171, 0.6) 75%);
+}
+
+#giver img{
+    position: absolute;
+    left: 13px;
+    top: 13px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.giver-normal {
+    transition: all 0.3s;
+    transform: translateX(-100%) translateY(700px);
+
+}
+// .giver-hide{
+//     display: none;
+// }
+.giver-show{
+    // display: block;
+    transform: translateX(0) translateY(700px);
+}
