@@ -10,7 +10,7 @@
     "dependencies": [],
     "assets": {
         "images": {
-            "visualIcon" : "../assets/icon_nde.png"
+            "visualIcon" : "assets/icon_new.png"
         }
     },
     "configuration": {},

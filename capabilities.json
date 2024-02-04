@@ -40,7 +40,7 @@
                 "properties" : [
                         {
                             "name" : "customeSVGA",
-                            "displayName" : "自定义点位",
+                            "displayName" : "自定义特效",
                             "type" : "Collection",
                             "itemShape" : [
                             {

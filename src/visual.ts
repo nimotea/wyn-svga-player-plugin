@@ -9,7 +9,7 @@ import LOGO from "../assets/logo.jpg";
 import { Video } from "svga/dist/types";
 import { svgaList } from "./svgaList";
 
-const SVGALIST = [BOATSVGA, CLOUDSVGA];
+const SVGALIST = ['boat', 'cloud'];
 const CUSTOMESVGS = "customeSVGA";
 const FIELDVALUE = "fiedValue";
 const SVGATYPE = "svgaType";
@@ -73,7 +73,7 @@ export default class Visual extends WynVisual {
                   this.giver.classList.remove("giver-show");
                   resolve(0);
                 };
-                this.findSVGA(url.svga).then((svga) => {
+                this.findSVGA(gift).then((svga) => {
 
                   this.giverName.innerText = name;
                   this.giverGift.innerText = url.name;
@@ -96,7 +96,7 @@ export default class Visual extends WynVisual {
       await this.db.find(url);
       if (!svga) {
         const parser = new Parser({ isDisableImageBitmapShim: true });
-        svga = await parser.load(url);
+        svga = await parser.load(svgaList(url).svga);
         await this.db.insert(url, svga);
       }
     } catch (error) {
